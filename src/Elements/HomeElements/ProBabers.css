@@ -1,0 +1,50 @@
+.award-winings-box {
+    background-image: url(/src//assets/avadabarbers-about-introbackground.jpg);
+    background-size: cover;
+    width: 100%;
+    height:600px;
+    display: flex;
+
+}
+
+.award-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin:0 auto 4rem auto
+}
+
+.award-text {
+    color: rgb(200, 152, 89);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-bottom: -3rem;
+}
+
+.award-title {
+    color: rgb(194, 194, 194);
+    width: 700px;
+    height:100px;
+    font-size: 70px;
+    font-family: initial;
+    letter-spacing: 5px;      
+
+}
+
+.award-btn {
+    width: 330px;
+    height: 70px;
+    border: 2px solid  rgb(200, 152, 89);
+    background-color: rgba(0,0,0,0.1);
+    color: rgb(200, 152, 89);
+    font-size: 19px;
+    margin-top: -2rem;
+    cursor: pointer;
+}
+
+.award-btn:hover {
+    color: rgb(184, 135, 70); 
+}

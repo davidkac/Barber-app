@@ -1,0 +1,97 @@
+.grooming-container {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/avadabarbers-reviewsbackground.jpg');
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+    align-items: center; /* Dodajte ovo svojstvo */
+    justify-content: center;
+}
+
+
+.grooming-container::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left:-800px; /* Pomerajte horizontalno tako da je središnji trougao centriran */
+    width: 0;
+    height: 0;
+    border-left: 800px solid transparent;
+    border-right: 800px solid transparent;
+    border-bottom: 100px solid rgb(19, 19, 19); /* Boja pozadine .services-grooming */
+  }
+
+.grooming-top {
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    margin:4rem auto;
+    width: 100%;
+}
+
+.top-title {
+    font-size: 66px;
+    margin: 0;
+    color:rgb(159, 157, 157);
+}
+
+.top-text {
+   color:rgb(190 147 88);
+   font-weight: 600;
+   letter-spacing: 4px;
+    margin: 0;
+}
+
+.grooming-products {
+    margin-top: -2.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+
+}
+
+.grooming-product {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 420px;
+}
+
+.product-img {
+    width: 330px;
+    height: 350px;
+}
+
+.product-name {
+   color:rgb(190 147 88);
+    font-size: 20;
+    font-weight: 700;
+    margin: 0;
+}
+
+.product-price {
+   color:rgb(190 147 88);
+    margin: 0;
+}
+
+.product-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 340px;
+    margin: 2rem auto;
+    height: 65px;
+    background-color: rgba(0,0,0,0.1);
+    outline: none;
+    border: 2px solid rgb(190 147 88);
+    color:rgb(190 147 88);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}

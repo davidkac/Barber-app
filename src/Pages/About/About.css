@@ -1,0 +1,30 @@
+.about-cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 240vh;
+}
+
+.about-top {
+  width: 100%;
+  height: 470px;
+  background-image: url("../../assets/avadabarbers-about-ptb.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.about-mid {
+  background-image: url("../../assets/avadabarbers-about-introbackground.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.about-bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  min-height: 600px;
+  margin: 0;
+}

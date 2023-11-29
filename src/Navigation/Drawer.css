@@ -1,0 +1,89 @@
+.list {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 97vh;
+}
+
+.list-home {
+    background-image: url('/src//assets/backgroundMain.jpeg');
+    background-size: cover;
+    transition: background 300ms ease-in 200ms;
+}
+
+.list-about {
+    background-image: url('/src//assets/avadabarbers-about-ptb.jpg');
+    background-size: cover;
+    transition: background 300ms ease-in 200ms;
+
+}
+
+.list-services {
+    background-image: url('/src/assets//avadabarbers-trimcut-hero.jpg');
+    background-size: cover;
+    transition: background 300ms ease-in 200ms;
+}
+.list-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 1100px;
+    height: 550px;
+    
+}
+
+.list-item{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 1050px;
+    height: 70px;
+    color: white;
+    font-size: 27px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.list-item a:active{
+ text-decoration: none;
+ color: rgb(188 146 90);
+}
+
+.list-item a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.list-item a:hover{
+    text-decoration: none;
+    color: rgb(188 146 90);
+   }
+
+.list-item:hover {
+    color: rgb(188 146 90);
+    
+}
+
+.close-btn {
+    position: relative;
+    top: -3rem;
+    left: 45rem;
+    background-color: rgba(0,0,0,0.0);
+    border: none;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: rgb(188 146 90);
+
+}

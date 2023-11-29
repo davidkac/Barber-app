@@ -1,0 +1,188 @@
+.container {
+  width: 100%;
+}
+
+.container-box {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.container-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+  width: 100%;
+  background-image: url("/avadabarbers-contact-ptb.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.container-mid {
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 975px;
+  background-image: url(/src//assets//avadabarbers-about-introbackground.jpg);
+  background-size: cover;
+  border-bottom: 2px rgb(182 141 86);
+  width: 100%;
+}
+
+.container-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  min-width: 500px;
+  height: 970px;
+  background-color: rgba(121, 118, 118, 0.2);
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  box-shadow: 20px 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.container-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 970px;
+  min-width: 1050px;
+}
+
+.time-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.time-field {
+  width: 380px;
+  height: 120px;
+  border-bottom: 1px solid rgb(69, 69, 69);
+  margin-bottom: 1rem;
+}
+
+.days {
+  font-size: 17px;
+  color: grey;
+}
+
+.time {
+  font-size: 19px;
+  color: rgb(182 141 86);
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin-top: 5rem;
+}
+
+.detail {
+  margin-top: 1rem;
+}
+
+.detail-text1 {
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+}
+
+.number {
+  font-size: 22px;
+  color: rgb(190, 147, 89);
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.text-emial {
+  font-size: 16px;
+}
+
+.contact-us {
+  font-size: 70px;
+  margin-top: 7rem;
+}
+
+
+.box-bot {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1px;
+  border-top: 5px solid rgb(190, 147, 89);
+  min-height: 700px;
+}
+
+.box-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 4rem auto;
+}
+
+.box-text {
+  color: rgb(190, 147, 89);
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.box-title {
+  font-size: 66px;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(169, 168, 168);
+}
+
+.box-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  column-gap: 4rem;
+}
+
+.box-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 420px;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.card-text {
+  font-size: 20px;
+  display: flex;
+  color: grey;
+  width: 290px;
+}
+
+.card-name {
+  font-size: 20px;
+  color: rgb(190, 147, 89);
+  font-weight: 700;
+}
+

@@ -1,0 +1,96 @@
+.about-wrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem auto;
+    width: 1185px;
+    height:425px;
+
+}
+
+.about-top {
+    width: 100%;
+    height: 470px;
+    background-image: url('../../assets/avadabarbers-about-ptb.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.top-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+    z-index: 0;
+}
+
+.top-heading {
+    color: white;
+    font-size: 63px;
+    
+}
+
+.about-mid {
+    background-image: url('../../assets/avadabarbers-about-introbackground.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.mid-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.mid-title {
+    color: rgb(188 146 90);
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.mid-heading {
+    color: rgb(181, 179, 179);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.mid-div-text {
+    width: 750px;
+}
+
+.mid-text {
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+}
+
+.mid-text2 {
+    color: rgb(104, 104, 104);
+    font-size: 16px;
+    margin-top: 2rem;
+}
+
+.book-btn {
+    width: 374px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid rgb(188 146 90);
+    color: rgb(188 146 90);
+    background-color: rgba(0,0,0,0.1);
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
