@@ -1,0 +1,98 @@
+.services-main-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 1200px;
+}
+
+.services-main-box-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 1000px;
+  height: 200px;
+}
+
+.services-main-top-title {
+  color: rgb(182, 182, 182);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  margin: 0;
+}
+
+.services-main-top-text {
+  color: rgb(190, 147, 89);
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 17px;
+  margin: 0;
+
+}
+
+.services-main-items {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(3, 430px);
+  column-gap: 1rem;
+  width: 1240px;
+  height: 850px;
+}
+.services-main-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 430px;
+}
+
+.main-box-img {
+  width: 60px;
+  height: 105px;
+}
+
+.main-box-name {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(190, 147, 89);
+  font-size: 35px;
+  margin: 1.5rem 0 0 0;
+}
+
+.main-box-price {
+  margin: 0;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.main-box-text {
+  display: flex;
+  justify-content: center;
+  width: 269px;
+  height: 129px;
+  font-size: 18px;
+  color: rgb(104, 104, 104);
+  
+}
+
+.services-main-btn {
+  width: 374px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 2px solid rgb(188 146 90);
+  color: rgb(188 146 90);
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 4rem;
+}
+

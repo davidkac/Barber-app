@@ -1,0 +1,38 @@
+.container-services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.services-header {
+    width: 100%;
+    background-image: url(/src//assets/sedeljka.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+}
+
+.services-top-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 700px;
+    margin: 11rem auto;
+}
+
+.sevrices-top-title {
+    color: white;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.services-main {
+    display: flex;
+    justify-content: center;
+    background-image: url('/src/assets/avadabarbers-about-introbackground.jpg');
+    background-size: cover;
+    min-height: 1300px;
+}

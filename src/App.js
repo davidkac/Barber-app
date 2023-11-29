@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Pages/Root/Root";
 import Contact from "./Pages/Contact/Contact";
 import About from "./Pages/About/About";
+import Services from "./Pages/Services/Services";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         { path: "/", element: <Home /> },
         { path:"/about", element: <About />},
         { path: "/contact", element: <Contact /> },
+        { path:"/services", element: <Services />}
       ],
     },
   ]);

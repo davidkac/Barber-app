@@ -4,7 +4,6 @@ import ContactForm from "../../Elements/ContactElements/ContactForm";
 import ContactDetails from "../../Elements/ContactElements/ContactDetails";
 import ContactReviews from "../../Elements/ContactElements/ContactReviews";
 import {useLocation} from 'react-router-dom';
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 const Contact = () => {
 

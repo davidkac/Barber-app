@@ -3,7 +3,7 @@
     height: 900px;
     display: flex;
     flex-direction: column;
-    background-image: url('/avadabarbers-reviewsbackground.jpg');
+    background-image: url('/src/assets/avadabarbers-reviewsbackground.jpg');
     background-position: center;
     background-size: cover; 
     position: relative;
