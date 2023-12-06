@@ -14,6 +14,8 @@ function DrawerComponent() {
   const [isSelectedHome, setIsSelectedHome] = useState(false);
   const [isSelectedAbout, setIsSelectedAbout] = useState(false);
   const [isSelecteServices, setIsSelectedServices] = useState(false);
+  const [isSelectedShop, setIsSelectedShop] = useState(false);
+  const [isSelectedContact, setIsSelectedContact] = useState(false);
 
   const drawerRef = useRef(null);
 
@@ -21,6 +23,7 @@ function DrawerComponent() {
     setIsSelectedHome(true);
     setIsSelectedAbout(false);
     setIsSelectedServices(false);
+    setIsSelectedContact(false);
   };
 
   const handleHomeLeave = () => {
@@ -31,6 +34,8 @@ function DrawerComponent() {
     setIsSelectedHome(false);
     setIsSelectedAbout(true);
     setIsSelectedServices(false);
+    setIsSelectedShop(false);
+    setIsSelectedContact(false);
   };
 
   const handleAboutLeave = () => {
@@ -41,6 +46,32 @@ function DrawerComponent() {
     setIsSelectedHome(false);
     setIsSelectedAbout(false);
     setIsSelectedServices(true);
+    setIsSelectedShop(false);
+    setIsSelectedContact(false);
+  };
+
+  const handleSelectedShop = () => {
+    setIsSelectedHome(false);
+    setIsSelectedAbout(false);
+    setIsSelectedServices(false);
+    setIsSelectedShop(true);
+    setIsSelectedContact(false);
+  };
+
+  const handleSelectedContact = () => {
+    setIsSelectedHome(false);
+    setIsSelectedAbout(false);
+    setIsSelectedServices(false);
+    setIsSelectedShop(false);
+    setIsSelectedContact(true);
+  };
+
+  const handleContactLeave = () => {
+    setIsSelectedContact(false);
+  };
+
+  const handleShopLeave = () => {
+    setIsSelectedShop(false);
   };
 
   const handleServicesLeave = () => {
@@ -83,8 +114,9 @@ function DrawerComponent() {
       <List
         className={`list ${isSelectedHome ? "list-home" : ""} 
        ${isSelectedAbout ? "list-about" : ""} ${
-          isSelecteServices ? "list-services" : "s"
-        }`}
+          isSelecteServices ? "list-services" : ""
+        } ${isSelectedShop ? "list-shop" : ""}
+        ${isSelectedContact ? "list-contact" : ""}`}
       >
         <button onClick={drawerCloseHandler} className="close-btn">
           X
@@ -113,10 +145,15 @@ function DrawerComponent() {
               onMouseEnter={handleSelectedServices}
               onMouseLeave={handleServicesLeave}
             >
-              <Link to="/">Services</Link>
+              <Link to="/services">Services</Link>
             </li>
-            <li onClick={drawerCloseHandler} className="list-item">
-              <Link to="/">Shop</Link>
+            <li
+              onClick={drawerCloseHandler}
+              className="list-item"
+              onMouseEnter={handleSelectedShop}
+              onMouseLeave={handleShopLeave}
+            >
+              <Link to="/shop">Shop</Link>
             </li>
             <li onClick={drawerCloseHandler} className="list-item">
               <Link to="/">Our Team</Link>
@@ -124,7 +161,12 @@ function DrawerComponent() {
             <li onClick={drawerCloseHandler} className="list-item">
               <Link to="/">Blog</Link>
             </li>
-            <li onClick={drawerCloseHandler} className="list-item">
+            <li
+              onClick={drawerCloseHandler}
+              className="list-item"
+              onMouseEnter={handleSelectedContact}
+              onMouseLeave={handleContactLeave}
+            >
               <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
@@ -139,7 +181,12 @@ function DrawerComponent() {
       <Button onClick={drawerOpenHandler}>
         <Toogle />
       </Button>
-      <Drawer anchor="right" open={isDrawerOpen} onClose={drawerCloseHandler}>
+      <Drawer
+        anchor="right"
+        open={isDrawerOpen}
+        onClose={drawerCloseHandler}
+        transitionDuration={800}
+      >
         {list()}
       </Drawer>
     </div>

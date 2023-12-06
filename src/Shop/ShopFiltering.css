@@ -1,0 +1,39 @@
+.filtering-inputs {
+  width: 580px;
+  height: 80px;
+  /* border: 1px solid blue; */
+  margin: 2rem 0 0 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sort-btn {
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(192 149 88);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: rgba(192 149 88);
+  font-size: 15px;
+}
+
+.box-sort {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 2.5rem;
+  background-color: rgba(192 149 88);
+}

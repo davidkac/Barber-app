@@ -26,6 +26,18 @@
     background-size: cover;
     transition: background 300ms ease-in 200ms;
 }
+
+.list-shop {
+    background-image: url('/src/assets/avadabarbers-blog-ptb-retina.jpg');
+    background-size: cover;
+    transition: background 300ms ease-in 200ms;
+}
+
+.list-contact {
+    background-image: url('/src/assets/avadabarbers-contact-ptb.jpg');
+    background-size: cover;
+    transition: background 300ms ease-in 200ms;
+}
 .list-items {
     display: flex;
     flex-direction: column;
@@ -73,14 +85,14 @@
 
 .close-btn {
     position: relative;
-    top: -3rem;
-    left: 45rem;
     background-color: rgba(0,0,0,0.0);
     border: none;
     overflow: hidden;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     cursor: pointer;
+    left: 38rem;
+    top:0.5em;
 }
 
 .close-btn:hover {
