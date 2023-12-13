@@ -80,7 +80,7 @@
   justify-content: flex-start;
   align-items: center;
   position: absolute;
-  top: 5rem;
+  top: 4rem;
   left: 1rem;
   width: 552px;
   height: 551px;
@@ -152,7 +152,7 @@
 }
 
 .inf-text {
-  margin-left: 1rem;
+  margin:0 0 0 1rem;
   width: 480px;
   height: 117px;
   font-size: 20px;
@@ -240,7 +240,7 @@
   align-items: left;
   width: 1150px;
   height: 54px;
-  margin-top: 13rem;
+  margin-top: 12rem;
 }
 
 .desc-btn, .rev-btn {
