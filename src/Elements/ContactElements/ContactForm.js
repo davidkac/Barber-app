@@ -14,7 +14,7 @@ const ContactForm = () => {
         </p>
       </div>
       <div className="form-container">
-        <form className="form">
+        <form className="form-main">
           <div className="top">
             <div className="first">
               <label className="label">Your Name</label>
@@ -33,6 +33,10 @@ const ContactForm = () => {
               <input className="input-field" />
               <label className="label">Date</label>
               <input className="input-field" type="date"  />
+            </div>
+            <div className="third">
+            <label className="label1">Appointment time</label>
+              <input className="input-field1" type="text"  />
             </div>
           </div>
           <div className="bottom">

@@ -26,7 +26,7 @@ const ContactReviews = () => {
     <div className="box-bot">
       <div className="box-head">
         <p className="box-text">WHAT PEOPLE ARE SAYING</p>
-        <h1 className="box-title">Reviews</h1>
+        <h1 className="box-title-reviews">Reviews</h1>
       </div>
       <div  className="box-cards">
       {avatars
